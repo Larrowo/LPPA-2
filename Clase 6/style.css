@@ -1,0 +1,11 @@
+*{
+    padding: 0;
+}
+
+.header-container{
+    background-color: black;
+    height: 40px;
+    width: 100%;
+    position: sticky;
+    top: 0%;
+}
