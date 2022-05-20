@@ -1,11 +1,88 @@
-*{
-    padding: 0;
+* {
+  margin: 5px;
+  box-sizing: border-box;
 }
 
-.header-container{
-    background-color: black;
-    height: 40px;
-    width: 100%;
-    position: sticky;
-    top: 0%;
+html,
+body {
+  height: 100%;
+}
+
+/* Site header */
+
+.siteHeader {
+  padding: 30px;
+  text-align: center;
+  color: #333;
+  background-color: #f1f1f1;
+  border: 2px solid black;
+  margin-bottom: 10px;
+}
+
+.siteheader h1 {
+  font-size: 50px;
+}
+
+/* navBar */
+
+nav {
+  background-color: #333;
+  margin-bottom: 10px;
+}
+
+.navBar {
+  position: sticky;
+  top: 0;
+}
+.navItem {
+  margin: 0px;
+  display: inline-block;
+  padding: 20px 0;
+  width: 24%;
+  text-align: center;
+}
+
+.navItem > a {
+  text-decoration: none;
+  color: #f2f2f2;
+}
+
+.navItem a:hover {
+  color: aqua;
+}
+
+/* Contenido */
+
+.card {
+  border: 1px solid black;
+  padding: 20px;
+  margin: 20px 10px;
+  height: 400px;
+  width: 100%;
+}
+
+.contentContainer {
+  border: 1px solid black;
+  height: 100%;
+  margin-bottom: 10px;
+}
+
+.generalContainer{
+    border: 1px solid black;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.deportesContainer{
+    border: 1px solid black;
+    padding:20px;
+    display: flex;
+    justify-content: center;
+}
+
+/* Footer */
+
+footer {
+  border: 1px solid black;
 }
