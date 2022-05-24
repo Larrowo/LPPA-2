@@ -65,6 +65,10 @@ nav {
   border: 1px solid black;
   height: 100%;
   margin-bottom: 10px;
+  display:flex;
+  flex-direction: column;
+  background-color: red;
+  
 }
 
 .generalContainer{
@@ -72,6 +76,7 @@ nav {
     padding:20px;
     display: flex;
     justify-content: center;
+    background-color: blue;
 }
 
 .deportesContainer{
@@ -79,10 +84,16 @@ nav {
     padding:20px;
     display: flex;
     justify-content: center;
+    background-color: green;
 }
 
 /* Footer */
 
 footer {
   border: 1px solid black;
+}
+
+
+.pageFooter{
+    background-color: yellow;
 }
